@@ -1,0 +1,144 @@
+/* Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    font-size: 14px;
+    /* font-family: 'Bebas Neue', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Reusable Styles */
+.btn {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: normal;
+    color: #FFFFFF;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    transition: all 0.5s ease linear;
+}
+.btn:hover {
+    background: linear-gradient(180deg, #85A019 100%, #A4BC46 0%);
+    /* color: #3C3C3C; */
+}
+.btn i {
+    margin-right: 1rem;
+}
+
+.banner-btn {
+    padding: 1.5rem 3rem;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.8rem;
+    line-height: 5.8rem;
+    color: #363958;
+    margin-bottom: 6rem;
+}
+
+/* Header Area Styles  */
+.header-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    z-index: 999;
+    /* box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px; */
+}
+.navbar {
+    padding-top: 2.5rem;
+}
+.navbar-brand {
+    max-width: 29rem;
+    max-height: 4rem;
+}
+
+.nav-menu .menus li a.nav-link {
+    font-size: 1.6rem;
+    color: #3C3C3C;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem 1.5rem;
+}
+.nav-menu .menus li a:hover {
+    color: #85A019;
+}
+.nav-menu .menus li a.nav-link.active {
+    color: #85A019;
+}
+
+.toggle-icon {
+    background: transparent;
+    color: red;
+}
+.navbar-toggler-icon {
+    background: transparent;
+    color: red;
+}
+/* Header Area Styles End */
+
+/* Hero Area Styles  */
+.hero-area {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+.hero-area::before {
+    content: '';
+    width: 15rem;
+    height: 15rem;
+    background: url(../images/shape/banner-shape1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    transform: translate(-40%);
+    z-index: 9999;
+}
+.banner-text h1 {
+    color: #363958;    
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8rem;
+    line-height: 9.2rem;
+}
+.banner-text p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    color: #3E3E3E;
+    margin-bottom: 2rem;
+}
+/* Hero Area Styles End */
+
+/* Products Area Styles */
+.product .product-thamp {
+
+}
+.card-btn {
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.5rem;
+}
